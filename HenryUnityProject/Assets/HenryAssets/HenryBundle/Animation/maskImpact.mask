@@ -101,11 +101,11 @@ AvatarMask:
     m_Weight: 0
   - m_Path: Armature/ROOT/KneeIK.r
     m_Weight: 0
-  - m_Path: meshHenry
+  - m_Path: meshInfernus
     m_Weight: 0
-  - m_Path: meshHenry.001
+  - m_Path: meshInfernus.001
     m_Weight: 0
-  - m_Path: MeshHenryGun
+  - m_Path: MeshInfernusGun
     m_Weight: 0
-  - m_Path: meshHenrySword
+  - m_Path: meshInfernusSword
     m_Weight: 0

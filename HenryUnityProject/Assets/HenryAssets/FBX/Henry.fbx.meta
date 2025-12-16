@@ -24,8 +24,8 @@ ModelImporter:
     100036: KneeIK.r
     100038: lower_arm.l
     100040: lower_arm.r
-    100042: meshHenry
-    100044: meshHenrySword
+    100042: meshInfernus
+    100044: meshInfernusSword
     100046: ROOT
     100048: stomach
     100050: Sword.01
@@ -51,8 +51,8 @@ ModelImporter:
     100090: BandanaR.004
     100092: GunBase
     100094: GunTop
-    100096: meshHenry.001
-    100098: MeshHenryGun
+    100096: meshInfernus.001
+    100098: MeshInfernusGun
     100100: meshUzi
     400000: Armature
     400002: base
@@ -75,8 +75,8 @@ ModelImporter:
     400036: KneeIK.r
     400038: lower_arm.l
     400040: lower_arm.r
-    400042: meshHenry
-    400044: meshHenrySword
+    400042: meshInfernus
+    400044: meshInfernusSword
     400046: ROOT
     400048: stomach
     400050: Sword.01
@@ -102,17 +102,17 @@ ModelImporter:
     400090: BandanaR.004
     400092: GunBase
     400094: GunTop
-    400096: meshHenry.001
-    400098: MeshHenryGun
+    400096: meshInfernus.001
+    400098: MeshInfernusGun
     400100: meshUzi
-    2100000: matHenry
-    2100002: matHenry.001
-    2300000: meshHenry.001
-    3300000: meshHenry.001
-    4300000: meshHenry
-    4300002: meshHenrySword
-    4300004: MeshHenryGun
-    4300006: meshHenry.001
+    2100000: matInfernus
+    2100002: matInfernus.001
+    2300000: meshInfernus.001
+    3300000: meshInfernus.001
+    4300000: meshInfernus
+    4300002: meshInfernusSword
+    4300004: MeshInfernusGun
+    4300006: meshInfernus.001
     4300008: meshUzi
     7400000: SprintLFT
     7400002: SprintRHT
@@ -167,9 +167,9 @@ ModelImporter:
     7400100: Armature|WalkL
     7400102: Armature|WalkR
     9500000: //RootNode
-    13700000: meshHenry
-    13700002: meshHenrySword
-    13700004: MeshHenryGun
+    13700000: meshInfernus
+    13700002: meshInfernusSword
+    13700004: MeshInfernusGun
     13700006: meshUzi
     2186277476908879412: ImportLogs
   externalObjects: {}

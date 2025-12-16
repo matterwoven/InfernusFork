@@ -1,9 +1,9 @@
 ﻿using RoR2;
 using UnityEngine;
 
-namespace HenryMod.Survivors.Henry
+namespace InfernusMod.Survivors.Infernus
 {
-    public static class HenryBuffs
+    public static class InfernusBuffs
     {
         // armor buff gained during roll
         public static BuffDef armorBuff;

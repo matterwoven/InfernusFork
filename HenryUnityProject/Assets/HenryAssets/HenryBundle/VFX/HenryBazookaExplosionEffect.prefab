@@ -28082,7 +28082,7 @@ GameObject:
   - component: {fileID: 2595824111914311497}
   - component: {fileID: 2628882567003236965}
   m_Layer: 0
-  m_Name: HenryBazookaExplosionEffect
+  m_Name: InfernusBazookaExplosionEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

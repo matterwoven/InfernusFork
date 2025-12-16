@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 7238953316064410136}
   - component: {fileID: 7238953316060801886}
   m_Layer: 0
-  m_Name: MeshHenryGun
+  m_Name: MeshInfernusGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1946,7 +1946,7 @@ GameObject:
   - component: {fileID: 8315140139193097815}
   - component: {fileID: 7238953315125949139}
   m_Layer: 0
-  m_Name: mdlHenry
+  m_Name: mdlInfernus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2143,7 +2143,7 @@ GameObject:
   - component: {fileID: 8315140139193319994}
   - component: {fileID: 8315140139204662068}
   m_Layer: 0
-  m_Name: meshHenrySword
+  m_Name: meshInfernusSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2269,7 +2269,7 @@ GameObject:
   - component: {fileID: 8315140139193319996}
   - component: {fileID: 8315140139204662070}
   m_Layer: 0
-  m_Name: meshHenry
+  m_Name: meshInfernus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

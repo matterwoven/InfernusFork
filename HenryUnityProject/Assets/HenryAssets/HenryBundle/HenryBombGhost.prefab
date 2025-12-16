@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6254900371561122587}
   m_Layer: 0
-  m_Name: HenryBombGhost
+  m_Name: InfernusBombGhost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

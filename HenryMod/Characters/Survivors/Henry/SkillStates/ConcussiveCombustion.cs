@@ -5,9 +5,9 @@ using UnityEngine;
 //You can also use Addressables or LegacyResourcesAPI to load whichever effects you like
 using EntityStates.Commando.CommandoWeapon;
 
-namespace CustomSkillsTutorial.MyEntityStates
+namespace InfernusMod.Survivors.Infernus.SkillStates
 {
-    public class ConcussiveCombustionSpecial : BaseSkillState
+    public class ConcussiveCombustion : BaseSkillState
     {
         public float baseDuration = 0.5f;
         private float duration;

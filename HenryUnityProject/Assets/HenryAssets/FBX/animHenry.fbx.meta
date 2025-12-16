@@ -34,10 +34,10 @@ ModelImporter:
     100056: KneeIK.r
     100058: lower_arm.l
     100060: lower_arm.r
-    100062: meshHenry
-    100064: meshHenry.001
-    100066: MeshHenryGun
-    100068: meshHenrySword
+    100062: meshInfernus
+    100064: meshInfernus.001
+    100066: MeshInfernusGun
+    100068: meshInfernusSword
     100070: ROOT
     100072: stomach
     100074: Sword.01
@@ -84,10 +84,10 @@ ModelImporter:
     400056: KneeIK.r
     400058: lower_arm.l
     400060: lower_arm.r
-    400062: meshHenry
-    400064: meshHenry.001
-    400066: MeshHenryGun
-    400068: meshHenrySword
+    400062: meshInfernus
+    400064: meshInfernus.001
+    400066: MeshInfernusGun
+    400068: meshInfernusSword
     400070: ROOT
     400072: stomach
     400074: Sword.01
@@ -103,14 +103,14 @@ ModelImporter:
     400094: thigh.r
     400096: upper_arm.l
     400098: upper_arm.r
-    2100000: matHenry
-    2100002: matHenry.001
-    2300000: meshHenry.001
-    3300000: meshHenry.001
-    4300000: meshHenry
-    4300002: meshHenrySword
-    4300004: MeshHenryGun
-    4300006: meshHenry.001
+    2100000: matInfernus
+    2100002: matInfernus.001
+    2300000: meshInfernus.001
+    3300000: meshInfernus.001
+    4300000: meshInfernus
+    4300002: meshInfernusSword
+    4300004: MeshInfernusGun
+    4300006: meshInfernus.001
     7400000: SprintLFT
     7400002: SprintRHT
     7400004: Ascending
@@ -178,7 +178,7 @@ ModelImporter:
     7400128: Armature|MenuIdle
     7400130: Armature|Slash1
     7400132: Armature|Slash2
-    7400134: Armature|meshHenry.001Action
+    7400134: Armature|meshInfernus.001Action
     7400136: Armature|Punch1
     7400138: Armature|Punch2
     7400140: Armature|AirPunch1
@@ -231,9 +231,9 @@ ModelImporter:
     7400234: Armature|ReloadPistol
     7400236: Armature|ReloadUzi
     9500000: //RootNode
-    13700000: meshHenry
-    13700002: MeshHenryGun
-    13700004: meshHenrySword
+    13700000: meshInfernus
+    13700002: MeshInfernusGun
+    13700004: meshInfernusSword
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

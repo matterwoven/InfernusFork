@@ -34,9 +34,9 @@ ModelImporter:
     100056: KneeIK.r
     100058: lower_arm.l
     100060: lower_arm.r
-    100062: meshHenry
-    100064: MeshHenryGun
-    100066: meshHenrySword
+    100062: meshInfernus
+    100064: MeshInfernusGun
+    100066: meshInfernusSword
     100068: ROOT
     100070: stomach
     100072: Sword.01
@@ -84,9 +84,9 @@ ModelImporter:
     400056: KneeIK.r
     400058: lower_arm.l
     400060: lower_arm.r
-    400062: meshHenry
-    400064: MeshHenryGun
-    400066: meshHenrySword
+    400062: meshInfernus
+    400064: MeshInfernusGun
+    400066: meshInfernusSword
     400068: ROOT
     400070: stomach
     400072: Sword.01
@@ -103,15 +103,15 @@ ModelImporter:
     400094: upper_arm.l
     400096: upper_arm.r
     400098: Crimson Winter Scarf
-    2100000: matHenry
-    4300000: meshHenry
-    4300002: meshHenrySword
-    4300004: MeshHenryGun
+    2100000: matInfernus
+    4300000: meshInfernus
+    4300002: meshInfernusSword
+    4300004: MeshInfernusGun
     4300006: Crimson Winter Scarf
     9500000: //RootNode
-    13700000: meshHenry
-    13700002: MeshHenryGun
-    13700004: meshHenrySword
+    13700000: meshInfernus
+    13700002: MeshInfernusGun
+    13700004: meshInfernusSword
     13700006: Crimson Winter Scarf
   externalObjects: {}
   materials:

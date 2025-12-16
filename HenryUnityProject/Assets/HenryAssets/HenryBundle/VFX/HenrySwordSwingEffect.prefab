@@ -4987,7 +4987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7625403617700074350}
   m_Layer: 0
-  m_Name: HenrySwordSwingEffect
+  m_Name: InfernusSwordSwingEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -5085,7 +5085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5027040963472519005}
   m_Layer: 0
-  m_Name: ImpactHenrySlash
+  m_Name: ImpactInfernusSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
