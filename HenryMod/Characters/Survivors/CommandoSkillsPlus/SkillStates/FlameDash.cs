@@ -61,7 +61,7 @@ namespace CustomSkillsTutorial
             // Now we add our skill to one of the survivor's skill families
             // You can change component.primary to component.secondary, component.utility and component.special
             SkillLocator skillLocator = commandoBodyPrefab.GetComponent<SkillLocator>();
-            SkillFamily skillFamily = skillLocator.primary.skillFamily;
+            SkillFamily skillFamily = skillLocator.utility.skillFamily;
 
             // If this is an alternate skill, use this code.
             // Here, we add our skill as a variant to the existing Skill Family.
