@@ -28,9 +28,9 @@ namespace CustomSkillsTutorial
             // We use LanguageAPI to add strings to the game, in the form of tokens
             // Please note that it is instead recommended that you use a language file.
             // More info in https://risk-of-thunder.github.io/R2Wiki/Mod-Creation/Assets/Localization/
-            LanguageAPI.Add("COMMANDO_PRIMARY_SIMPLEBULLET_NAME", "Simple Bullet Attack");
-            LanguageAPI.Add("COMMANDO_PRIMARY_SIMPLEBULLET_DESCRIPTION", $"Fire a bullet from your right pistol for <style=cIsDamage>300% damage</style>.");
-
+            LanguageAPI.Add("COMMANDO_SECONDARY_NAPALM_NAME", "Napalm");
+            LanguageAPI.Add("KEYWORD_NAPALM", "<style=cisNapalm>Napalm</style><style=cSub>Increases damage taken by 40%</style>");
+            LanguageAPI.Add("COMMANDO_SECONDARY_NAPALM_DESCRIPTION", $"Spew an incendiary mixture, dealing <style=cIsDamage>30% damage</style>, applying <style=cIsUtility>Slow</style>, and coating targets in <style=cIsUtility>Napalm</style>.");
             // Now we must create a SkillDef
             SkillDef mySkillDef = ScriptableObject.CreateInstance<SkillDef>();
 
@@ -51,9 +51,9 @@ namespace CustomSkillsTutorial
             mySkillDef.stockToConsume = 1;
             // For the skill icon, you will have to load a Sprite from your own AssetBundle
             mySkillDef.icon = null;
-            mySkillDef.skillDescriptionToken = "COMMANDO_PRIMARY_SIMPLEBULLET_DESCRIPTION";
-            mySkillDef.skillName = "COMMANDO_PRIMARY_SIMPLEBULLET_NAME";
-            mySkillDef.skillNameToken = "COMMANDO_PRIMARY_SIMPLEBULLET_NAME";
+            mySkillDef.skillDescriptionToken = "COMMANDO_SECONDARY_NAPALM_DESCRIPTION";
+            mySkillDef.skillName = "COMMANDO_SECONDARY_NAPALM_NAME";
+            mySkillDef.skillNameToken = "COMMANDO_SECONDARY_NAPALM_NAME";
 
             // This adds our skilldef. If you don't do this, the skill will not work.
             ContentAddition.AddSkillDef(mySkillDef);
@@ -61,7 +61,7 @@ namespace CustomSkillsTutorial
             // Now we add our skill to one of the survivor's skill families
             // You can change component.primary to component.secondary, component.utility and component.special
             SkillLocator skillLocator = commandoBodyPrefab.GetComponent<SkillLocator>();
-            SkillFamily skillFamily = skillLocator.primary.skillFamily;
+            SkillFamily skillFamily = skillLocator.secondary.skillFamily;
 
             // If this is an alternate skill, use this code.
             // Here, we add our skill as a variant to the existing Skill Family.
