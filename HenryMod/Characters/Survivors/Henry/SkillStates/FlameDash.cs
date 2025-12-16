@@ -13,8 +13,8 @@ namespace CustomSkillsTutorial
     [BepInDependency(LanguageAPI.PluginGUID)]
 
     [BepInPlugin(
-        "com.MyName.IHerebyGrantPermissionToDeprecateMyModFromThunderstoreBecauseIHaveNotChangedTheName",
-        "IHerebyGrantPermissionToDeprecateMyModFromThunderstoreBecauseIHaveNotChangedTheName",
+        "com.matterwoven.InfernusMod",
+        "InfernusMod",
         "1.0.0")]
     public class CustomSkillTutorial : BaseUnityPlugin
     {
