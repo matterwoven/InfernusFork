@@ -16,7 +16,7 @@ namespace CustomSkillsTutorial
         "com.matterwoven.InfernusMod",
         "InfernusMod",
         "1.0.0")]
-    public class CustomSkillTutorial : BaseUnityPlugin
+    public class NapalmSecond : BaseUnityPlugin
     {
         public void Awake()
         {
