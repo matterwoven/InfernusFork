@@ -7,7 +7,7 @@ using EntityStates.Commando.CommandoWeapon;
 
 namespace CustomSkillsTutorial.MyEntityStates
 {
-    public class SimpleBulletAttack : BaseSkillState
+    public class FlameDashUtility : BaseSkillState
     {
         public float baseDuration = 0.5f;
         private float duration;
