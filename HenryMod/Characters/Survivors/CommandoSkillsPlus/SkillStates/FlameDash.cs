@@ -16,7 +16,7 @@ namespace CustomSkillsTutorial
         "com.matterwoven.InfernusMod",
         "InfernusMod",
         "1.0.0")]
-    public class CustomSkillTutorial : BaseUnityPlugin
+    public class CustomUtility : BaseUnityPlugin
     {
         public void Awake()
         {
@@ -35,7 +35,7 @@ namespace CustomSkillsTutorial
             SkillDef mySkillDef = ScriptableObject.CreateInstance<SkillDef>();
 
             //Check step 2 for the code of the CustomSkillsTutorial.MyEntityStates.SimpleBulletAttack class
-            mySkillDef.activationState = new SerializableEntityStateType(typeof(CustomSkillsTutorial.MyEntityStates.SimpleBulletAttack));
+            mySkillDef.activationState = new SerializableEntityStateType(typeof(CustomUtility.MyEntityStates.SimpleBulletAttack));
             mySkillDef.activationStateMachineName = "Weapon";
             mySkillDef.baseMaxStock = 1;
             mySkillDef.baseRechargeInterval = 0f;
