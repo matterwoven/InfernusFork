@@ -91,7 +91,6 @@ namespace HenryMod.Survivors.Henry.SkillStates
 
         public override void OnExit()
         {
-            if (cameraTargetParams) cameraTargetParams.fovOverride = -1f;
             base.OnExit();
 
             characterMotor.disableAirControlUntilCollision = false;
